@@ -1,0 +1,79 @@
+#dataForm {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.form-header {
+    background-color: rgba(245, 245, 245, 0.733);
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.form-header > h1 {
+    font-size: 3rem;
+}
+
+.form-header > h2 {
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+}
+
+.form-body > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceForm > label {
+    margin-bottom: 0.3rem;
+}
+
+.experienceForm > label > input{
+    float: right;
+    width: 15rem;
+    height: 1rem;
+    border-radius: 0.3rem;
+    margin-right: 20rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem
+
+}
+
+#role-description {
+    height: 4rem;
+    vertical-align: top;
+    float: right;
+    width: 15rem;
+    border-radius: 0.3rem;
+    margin-right: 20rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem
+}
+
+button:hover {
+    cursor: pointer;
+}
+button {
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid black;
+}
